@@ -31,7 +31,7 @@ http://imgur.com/a/YBlKy
 
 ### Data Structure
 
-I plan to use an array with each square of the board being represented by an index position (0-8).  I will use jQuery to allow the user to interact with the board via click handlers, reset the board, sign up for an account and manage their account.      
+I plan to use an array with each square of the board being represented by an index position (0-8).  I will use jQuery to allow the user to interact with the board via click handlers, reset the board, sign up for an account and manage their account.
 
 ### Representation of Markup
 
@@ -41,12 +41,12 @@ Wins will result when 3 indices of X/O align as per the game rules.  For example
 
 First I will re-read the documentation (project requirements and the game API).  I plan to closely follow the suggestions for what to do and in what order as outlined in the game-project repository.  Specifically, I will:
 
---   Create a simple HTML layout and style it it with CSS.
---   Design the game logic in JS.
---   Add jQuery code to allow user interaction with the game
---   Add jQuery code to allow user interaction with the account features
---   Write curl requests to the test api.
---   Add AJAX code.
+-   Create a simple HTML layout and style it it with CSS.
+-   Design the game logic in JS.
+-   Add jQuery code to allow user interaction with the game
+-   Add jQuery code to allow user interaction with the account features
+-   Write curl requests to the test api.
+-   Add AJAX code.
 
 If I find myself spending an inordinate amount of time on a step that is sufficiently complete but could be somewhat improved for aesthetic purposes I will remind myself to move on and return to it only when I have satisfied all other criterion of the project.  I will also do my best to allocate sufficient time for steps that I anticipate will be more difficult for me than others, like writing jQuery to handle browser interaction.
 
